@@ -1,0 +1,46 @@
+<view class="most-container" wx:for="{{num}}" wx:for-item="item" wx:for-index="idx">
+<view class="container">
+
+  <view class="header">
+      <view class="user-image">
+           <image class="image" src="../../images/yejing.jpg"/>
+      </view>
+      <view class="user-info">
+            <view class="user-name">达芬奇</view>
+            <view class="nowtime">{{time}}</view>
+      </view>
+  </view>
+
+  <view class="image9">
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      <image class="img" src="../../images/yejing.jpg"/>
+      
+  </view>
+
+  <view class="footer">
+      <view class="support">
+          <image class="support-image" catchtap="change" wx:if="{{click}}" src="../../images/support.png"/>
+          <image class="eversupport-image" catchtap="change" wx:else src="../../images/everzan.png"/>
+          <button class="footer-text" wx:if="{{zan}}">点赞</button>
+          <button class="everfooter-text" wx:else>已赞</button>
+      </view>
+      <view class="delete">
+          <image class="delete-image" src="../../images/delete.png"/>
+          <button class="footer-text">删除</button>
+      </view>
+      <view class="fx">
+          <image class="fx-image" src="../../images/fx.png"/>
+          <button class="footer-text" open-type="share">分享</button>
+      </view>
+  </view>
+
+</view>
+
+</view>

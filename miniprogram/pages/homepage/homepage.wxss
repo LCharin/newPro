@@ -1,0 +1,139 @@
+/* miniprogram/pages/homepage/homepage.wxss */
+body{
+   background-color:#EEEEEE;
+}
+
+.most-container{
+  width:900rpx;
+}
+
+.container{
+  background-color:white;
+  width:900rpx;
+  height:950rpx;
+
+}
+
+.header{
+  display:flex;
+  width:900rpx;
+  height:150rpx;
+}
+
+.user-image{
+  width:90rpx;
+  height:90rpx; 
+  margin:38rpx;
+}
+
+.image{
+  width:90rpx;
+  height:90rpx;
+  border-radius: 10rpx;
+}
+
+.user-info{
+  width:700rpx;
+  height:90rpx;
+  margin:38rpx 38rpx 38rpx 0rpx;
+}
+
+.username{
+  font-size: 26rpx;
+  font-family: SourceHanSansCN-Medium;
+  padding: 5rpx;
+}
+
+.nowtime{
+  font-size: 20rpx;
+  font-family: SourceHanSansCN-Regular;
+  padding-top: 12rpx;
+  color:#CCCCCC;
+}
+
+.image9{
+  width:900rpx;
+  height:300rpx;
+  
+}
+
+.img{
+  width:210rpx;
+  height:210rpx;
+  border-radius: 10rpx;
+  margin:10rpx 8rpx 6rpx 26rpx;
+}
+
+.footer{
+  width:900rpx;
+  margin-top:430rpx;
+  display:flex;
+  
+}
+
+.support{
+  width:80rpx;
+  height:10rpx;
+  display:flex;
+  margin-left:46rpx;
+}
+
+.delete{
+  width:80rpx;
+  height:10rpx;
+  display:flex;
+  margin-left:216rpx;
+  margin-right:200rpx;
+}
+
+.fx{
+  width:100rpx;
+  height:10rpx;
+  display:flex;
+}
+
+.support-image{
+  width:30rpx;
+  height:30rpx;
+}
+
+.delete-image{
+  width:30rpx;
+  height:30rpx;
+}
+
+.fx-image{
+  width:30rpx;
+  height:30rpx;
+}
+
+
+.footer-text{
+  
+  width:70rpx;
+  height:40rpx;
+  font-size:22rpx;
+  line-height:22rpx;
+  padding:7rpx 0rpx 0rpx 0rpx; 
+}
+
+.eversupport-image{
+  width:50rpx;
+  height:42rpx;
+  margin-top:-5rpx;
+}
+
+.everfooter-text{
+  width:70rpx;
+  height:40rpx;
+  font-size:22rpx;
+  line-height:22rpx;
+  padding:7rpx 0rpx 0rpx 0rpx; 
+
+}
+
+
+
+
+
+
